@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.1.189">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>BS3037: Virology - 2&nbsp; Seeing Viruses</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../chapters/week1.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+<script async="" src="https://hypothes.is/embed.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Seeing Viruses</span></h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">BS3037: Virology</a> 
+        <div class="sidebar-tools-main tools-wide">
+    <a href="https://github.com/kevfo/BS3037_Notes/" title="Source Code" class="sidebar-tool px-1"><i class="bi bi-github"></i></a>
+    <a href="" title="Share" id="sidebar-tool-dropdown-0" class="sidebar-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-share"></i></a>
+    <ul class="dropdown-menu" aria-labelledby="sidebar-tool-dropdown-0">
+        <li>
+          <a class="dropdown-item sidebar-tools-main-item" href="https://twitter.com/intent/tweet?url=|url|">
+            <i class="bi bi-bi-twitter pe-1"></i>
+          Twitter
+          </a>
+        </li>
+        <li>
+          <a class="dropdown-item sidebar-tools-main-item" href="https://www.facebook.com/sharer/sharer.php?u=|url|">
+            <i class="bi bi-bi-facebook pe-1"></i>
+          Facebook
+          </a>
+        </li>
+    </ul>
+  <a href="" class="quarto-color-scheme-toggle sidebar-tool" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+  <a href="" class="quarto-reader-toggle sidebar-tool" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
+</div>
+    </div>
+      </div>
+      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">Preface</a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true"><strong>PART I: LECTURE NOTES</strong></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/week1.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">A Brief Overview of Virology</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/week2.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Seeing Viruses</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#light-microscopy" id="toc-light-microscopy" class="nav-link active" data-scroll-target="#light-microscopy"><span class="toc-section-number">2.1</span>  Light Microscopy</a>
+  <ul class="collapse">
+  <li><a href="#fluorescence-microscopy" id="toc-fluorescence-microscopy" class="nav-link" data-scroll-target="#fluorescence-microscopy"><span class="toc-section-number">2.1.1</span>  Fluorescence microscopy</a></li>
+  <li><a href="#fixed-cell-viewing" id="toc-fixed-cell-viewing" class="nav-link" data-scroll-target="#fixed-cell-viewing"><span class="toc-section-number">2.1.2</span>  Fixed Cell Viewing</a></li>
+  <li><a href="#live-fluorescence-imaging" id="toc-live-fluorescence-imaging" class="nav-link" data-scroll-target="#live-fluorescence-imaging"><span class="toc-section-number">2.1.3</span>  Live Fluorescence Imaging</a></li>
+  </ul></li>
+  <li><a href="#electron-microscopy" id="toc-electron-microscopy" class="nav-link" data-scroll-target="#electron-microscopy"><span class="toc-section-number">2.2</span>  Electron Microscopy</a>
+  <ul class="collapse">
+  <li><a href="#scanning-electron-microscopy-i.e.-sem" id="toc-scanning-electron-microscopy-i.e.-sem" class="nav-link" data-scroll-target="#scanning-electron-microscopy-i.e.-sem"><span class="toc-section-number">2.2.1</span>  Scanning Electron Microscopy (i.e., SEM)</a></li>
+  <li><a href="#transmission-electron-microscopy-i.e.-tem" id="toc-transmission-electron-microscopy-i.e.-tem" class="nav-link" data-scroll-target="#transmission-electron-microscopy-i.e.-tem"><span class="toc-section-number">2.2.2</span>  Transmission Electron Microscopy (i.e., TEM)</a></li>
+  </ul></li>
+  <li><a href="#pros-and-cons-of-light-and-electron-microscopy" id="toc-pros-and-cons-of-light-and-electron-microscopy" class="nav-link" data-scroll-target="#pros-and-cons-of-light-and-electron-microscopy"><span class="toc-section-number">2.3</span>  Pros and Cons of Light and Electron Microscopy</a></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/kevfo/BS3037_Notes/edit/main/chapters/week2.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/kevfo/BS3037_Notes/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Seeing Viruses</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    
+  </div>
+  
+
+</header>
+
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week2/sizes.png" class="img-fluid figure-img" width="252"></p>
+<p></p><figcaption class="figure-caption">Sizes of Objects</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>The study of parasites, fungi, bacteria, and viruses can be broken down into different parts, and each entity has their own way of storing genetic information. This, in turn, affects the way that they divide and interact with the organisms that they infect.</p>
+<p>This week’s lecture talks about light and electron microscopy.</p>
+<section id="light-microscopy" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="light-microscopy"><span class="header-section-number">2.1</span> Light Microscopy</h2>
+<section id="fluorescence-microscopy" class="level3" data-number="2.1.1">
+<h3 data-number="2.1.1" class="anchored" data-anchor-id="fluorescence-microscopy"><span class="header-section-number">2.1.1</span> Fluorescence microscopy</h3>
+<p><strong>Fluorescence microscopy</strong> is a way to get a closer look at cells. In this approach and context, scientists use antibodies that stick to specific parts of the virus. The antibodies usually have a fluorescent tag that glow when light is shone on it. Different tags glow different colors, and this information is useful to help scientists identify what they see.</p>
+<p>This kind of microscopy can help scientists see parts of viruses in the context of cellular compartments. Some examples of antibodies and the structures they illuminate include:</p>
+<ul>
+<li>Anti-Lamin <span class="math inline">\(\rightarrow\)</span> Nucleus</li>
+<li>Anti-GM130 <span class="math inline">\(\rightarrow\)</span> Golgi</li>
+<li>Anti-LAMP1 <span class="math inline">\(\rightarrow\)</span> Lysosome</li>
+<li>Phalloldin FITC <span class="math inline">\(\rightarrow\)</span> F-actin</li>
+<li>Cholera toxin B subunit-FITC <span class="math inline">\(\rightarrow\)</span> GM1 in lipid rafts</li>
+<li>DAPI <span class="math inline">\(\rightarrow\)</span> Nucleus</li>
+</ul>
+</section>
+<section id="fixed-cell-viewing" class="level3" data-number="2.1.2">
+<h3 data-number="2.1.2" class="anchored" data-anchor-id="fixed-cell-viewing"><span class="header-section-number">2.1.2</span> Fixed Cell Viewing</h3>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week2/cellFix.png" class="img-fluid figure-img" width="497"></p>
+<p></p><figcaption class="figure-caption">Examples of Fixed Cell Microscopy and Antibodies</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Sometimes, scientists also use special liquids to fixate cells that have been infected by viruses in order to study them. Different antibodies are then used to color parts of the virus and the cell; this helps scientists see how the virus and the cell’s structures are connected.</p>
+</section>
+<section id="live-fluorescence-imaging" class="level3" data-number="2.1.3">
+<h3 data-number="2.1.3" class="anchored" data-anchor-id="live-fluorescence-imaging"><span class="header-section-number">2.1.3</span> Live Fluorescence Imaging</h3>
+<p>This kind of microscopy involves watching cells without making them remain still. These cells are kept alive and healthy under certain conditions.</p>
+<p>Scientists create viruses that have a protein that glows (i.e., a little “light bulb”) and they can also create cells that produce glowing proteins. This enables scientists to see what is happening inside the cells at the moment.</p>
+</section>
+</section>
+<section id="electron-microscopy" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="electron-microscopy"><span class="header-section-number">2.2</span> Electron Microscopy</h2>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week2/semtem.png" class="img-fluid figure-img" width="476"></p>
+<p></p><figcaption class="figure-caption">A Transmission Electron Microscope and a Scanning Electron Microscope</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Using an electron microscope is a complicated deal and one needs expertise to operate and prepare samples. On one hand, electron microscopes can magnify and show a lot of tiny details, but there’s a downside to this: the microscope works in a <strong>vacuum</strong> - a space without air - so samples need to be dry.</p>
+<p>Scientists use these techniques to see things up close using special labels. They attach tiny gold particles to antibodies, and these antibodies can be seen under the microscope and identify specific parts in the samples that they’re looking at.</p>
+<section id="scanning-electron-microscopy-i.e.-sem" class="level3" data-number="2.2.1">
+<h3 data-number="2.2.1" class="anchored" data-anchor-id="scanning-electron-microscopy-i.e.-sem"><span class="header-section-number">2.2.1</span> Scanning Electron Microscopy (i.e., SEM)</h3>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week2/SEMSamples.png" class="img-fluid figure-img" width="468"></p>
+<p></p><figcaption class="figure-caption">Examples of Samples Viewed using Scanning Electron Microscopy</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p><strong>S</strong>canning <strong>e</strong>lectron <strong>m</strong>icroscopy (i.e., <strong>SEM</strong>) is a method used to look at the outside of cells or bigger parts like viruses. Cells are first treated with something called <strong>critical point drying</strong> to make sure that they’re ready for the microscope.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week2/SEMprotocol.png" class="img-fluid figure-img" width="474"></p>
+<p></p><figcaption class="figure-caption">Outline of How SEM Works</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>The above figure outlines how SEM typically works:</p>
+<ol type="1">
+<li><p><strong>Fixation</strong></p>
+<p>Scientist ensure that the cells or samples are fixed. This is almost like taking a picture to ensure that everything stays still.</p></li>
+<li><p><strong>Drying</strong></p>
+<p>Water is removed from the samples. Water can mess up the microscope.</p></li>
+<li><p><strong>Critical Point Drying</strong></p>
+<p>This is akin to freeze-drying, but is a technique that helps keep the samples in a good shape for the microscope.</p></li>
+<li><p><strong>Coating</strong></p>
+<p>The sample is coated with a thin layer of a special material - usually metal - to make the samples stronger and ready for the microscope.</p></li>
+<li><p><strong>SEM Analysis</strong></p>
+<p>The sample is put into a SEM - this microscope uses special light to take a super close-up picture of the samples. Scientists can then study these pictures to know more about what it is that they’re looking at.</p></li>
+</ol>
+</section>
+<section id="transmission-electron-microscopy-i.e.-tem" class="level3" data-number="2.2.2">
+<h3 data-number="2.2.2" class="anchored" data-anchor-id="transmission-electron-microscopy-i.e.-tem"><span class="header-section-number">2.2.2</span> Transmission Electron Microscopy (i.e., TEM)</h3>
+<section id="negative-staining" class="level4" data-number="2.2.2.1">
+<h4 data-number="2.2.2.1" class="anchored" data-anchor-id="negative-staining"><span class="header-section-number">2.2.2.1</span> Negative Staining</h4>
+<p><strong>Negative staining</strong> is a way to look at virus particles, their morphology, and detect viruses in clinical material. In this setup, special heavy metals make the virus parts stand out more. Uranyl acetate and phosphotungstic acid are two common choices; these agents don’t color the virus, but they make them easier to see under an electron microscope.</p>
+<p>Scientists also use a special grid to look at the viruses under the electron microscope.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week2/TEMprocedure.png" class="img-fluid figure-img" width="359"></p>
+<p></p><figcaption class="figure-caption">Outline of How TEM Works</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>The above figure outlines how TEM works:</p>
+<ol type="1">
+<li><p><strong>Adding Sample to Buffer</strong></p>
+<p>Samples are added to a special liquid called a <strong>buffer</strong> - this helps keep sample safe and ready for the following step.</p></li>
+<li><p><strong>Adding Heavy Metal Stain</strong></p>
+<p>A special “paint” made out of heavy metals is added to the sample - this helps the microscope see the sample better by giving it strong contrasts (i.e., like dark ink on white paper).</p></li>
+<li><p><strong>Blotting</strong></p>
+<p>The sample is put onto a special surface that soaks up the extra liquid.</p></li>
+<li><p><strong>Air Drying</strong></p>
+<p>The sample is left in the air to dry. This helps the heavy metal paint to stick to the sample and make it ready for viewing.</p></li>
+</ol>
+</section>
+<section id="immuno-negative-staining" class="level4" data-number="2.2.2.2">
+<h4 data-number="2.2.2.2" class="anchored" data-anchor-id="immuno-negative-staining"><span class="header-section-number">2.2.2.2</span> Immuno-Negative Staining</h4>
+<p>When negative staining is performed with immunolabelling, this is called <strong>immuno-negative staining</strong>. First, <strong>immunolabelling</strong> - putting special “labels” on the objects of interests - is carried out. Then, negative staining is carried out to make the sample easier to look at.</p>
+</section>
+<section id="thin-sections" class="level4" data-number="2.2.2.3">
+<h4 data-number="2.2.2.3" class="anchored" data-anchor-id="thin-sections"><span class="header-section-number">2.2.2.3</span> Thin Sections</h4>
+<p>To study samples closely, scientists need to prepare them carefully:</p>
+<ol type="1">
+<li>First, they make the cells stay still using a process called <strong>fixation</strong>.</li>
+<li>They treat the cells with chemicals and then remove water from them.</li>
+<li>They put the cells into a special plastic material to keep them in shape. To see virus-infected cells, they need to cut super thin slices, like cutting very thin pieces of cheese. These slices are usually between 80 and 100 nanometers thick.</li>
+<li>They use a special machine called an ultramicrotome to do this cutting. Once the slices are ready, they put them on a small grid and add some coloring to help see the details better when they use the electron microscope.</li>
+</ol>
+<p>Samples can also be immunolabelled before or after embedding (i.e., keeping the cells into a special plastic material) and sectioning.</p>
+</section>
+</section>
+</section>
+<section id="pros-and-cons-of-light-and-electron-microscopy" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="pros-and-cons-of-light-and-electron-microscopy"><span class="header-section-number">2.3</span> Pros and Cons of Light and Electron Microscopy</h2>
+<p>The following table lists some pros and cons as they pertain to electron and light microscopy:</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="table table-sm table-striped">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Pros.of.Light.Microscopy</th>
+<th style="text-align: left;">Cons.of.Light.Microscopy</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Simple to do</td>
+<td style="text-align: left;">Limited Resolution of 200 to 300 nm</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Specimen is in solvent</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<table class="table table-sm table-striped">
+<colgroup>
+<col style="width: 27%">
+<col style="width: 72%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Pros.of.Electron.Microscopy</th>
+<th style="text-align: left;">Cons.of.Electron.Microscopy</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Good Resolution</td>
+<td style="text-align: left;">Time Consuming</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Need Dried Samples</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Can lead to imperfections in final viewing because it’s just so difficult</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  let localAlternateSentinel = 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } 
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../chapters/week1.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">A Brief Overview of Virology</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+</body></html>

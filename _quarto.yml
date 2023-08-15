@@ -5,15 +5,16 @@ project:
 book:
   title: "BS3037: Virology"
   author: "Kevin Fo"
-  date: "8th August, 2023"
+  date: "05/08/2023"
   chapters:
     - index.qmd
     - part: "**PART I: LECTURE NOTES**"
       chapters:
         - chapters/week1.qmd
+        - chapters/week2.qmd
   sharing: [twitter, facebook]
   page-navigation: true
-  repo-url: https://github.com/kevfo/BS4014_Notes
+  repo-url: https://github.com/kevfo/BS3037_Notes/
   repo-actions: [edit, issue]
   reader-mode: true
   comments: 
