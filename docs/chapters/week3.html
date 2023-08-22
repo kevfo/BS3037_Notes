@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.1.189">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>BS3037: Virology - 3&nbsp; Strategies for Virus Entry</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../chapters/week2.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+<script async="" src="https://hypothes.is/embed.js"></script>
+
+
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Strategies for Virus Entry</span></h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">BS3037: Virology</a> 
+        <div class="sidebar-tools-main tools-wide">
+    <a href="https://github.com/kevfo/BS3037_Notes/" title="Source Code" class="sidebar-tool px-1"><i class="bi bi-github"></i></a>
+    <a href="" title="Share" id="sidebar-tool-dropdown-0" class="sidebar-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-share"></i></a>
+    <ul class="dropdown-menu" aria-labelledby="sidebar-tool-dropdown-0">
+        <li>
+          <a class="dropdown-item sidebar-tools-main-item" href="https://twitter.com/intent/tweet?url=|url|">
+            <i class="bi bi-bi-twitter pe-1"></i>
+          Twitter
+          </a>
+        </li>
+        <li>
+          <a class="dropdown-item sidebar-tools-main-item" href="https://www.facebook.com/sharer/sharer.php?u=|url|">
+            <i class="bi bi-bi-facebook pe-1"></i>
+          Facebook
+          </a>
+        </li>
+    </ul>
+  <a href="" class="quarto-color-scheme-toggle sidebar-tool" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+  <a href="" class="quarto-reader-toggle sidebar-tool" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
+</div>
+    </div>
+      </div>
+      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">Preface</a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true"><strong>PART I: LECTURE NOTES</strong></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/week1.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">A Brief Overview of Virology</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/week2.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Seeing Viruses</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/week3.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Strategies for Virus Entry</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#virus-attachment" id="toc-virus-attachment" class="nav-link active" data-scroll-target="#virus-attachment"><span class="toc-section-number">3.1</span>  Virus Attachment</a>
+  <ul class="collapse">
+  <li><a href="#attachment-for-enveloped-viruses" id="toc-attachment-for-enveloped-viruses" class="nav-link" data-scroll-target="#attachment-for-enveloped-viruses"><span class="toc-section-number">3.1.1</span>  Attachment for Enveloped Viruses</a></li>
+  <li><a href="#non-enveloped-viruses" id="toc-non-enveloped-viruses" class="nav-link" data-scroll-target="#non-enveloped-viruses"><span class="toc-section-number">3.1.2</span>  Non-Enveloped Viruses</a></li>
+  <li><a href="#cell-receptors" id="toc-cell-receptors" class="nav-link" data-scroll-target="#cell-receptors"><span class="toc-section-number">3.1.3</span>  Cell Receptors</a></li>
+  <li><a href="#why-target-virus-receptors" id="toc-why-target-virus-receptors" class="nav-link" data-scroll-target="#why-target-virus-receptors"><span class="toc-section-number">3.1.4</span>  Why Target Virus Receptors?</a></li>
+  </ul></li>
+  <li><a href="#virus-internalization" id="toc-virus-internalization" class="nav-link" data-scroll-target="#virus-internalization"><span class="toc-section-number">3.2</span>  Virus Internalization</a></li>
+  <li><a href="#virus-entry" id="toc-virus-entry" class="nav-link" data-scroll-target="#virus-entry"><span class="toc-section-number">3.3</span>  Virus Entry</a>
+  <ul class="collapse">
+  <li><a href="#viral-fusion-proteins" id="toc-viral-fusion-proteins" class="nav-link" data-scroll-target="#viral-fusion-proteins"><span class="toc-section-number">3.3.1</span>  Viral Fusion Proteins</a></li>
+  <li><a href="#mechanisms-by-enveloped-viruses" id="toc-mechanisms-by-enveloped-viruses" class="nav-link" data-scroll-target="#mechanisms-by-enveloped-viruses"><span class="toc-section-number">3.3.2</span>  Mechanisms by Enveloped Viruses</a></li>
+  <li><a href="#mechanisms-by-non-enveloped-viruses" id="toc-mechanisms-by-non-enveloped-viruses" class="nav-link" data-scroll-target="#mechanisms-by-non-enveloped-viruses"><span class="toc-section-number">3.3.3</span>  Mechanisms by Non-Enveloped Viruses</a></li>
+  </ul></li>
+  <li><a href="#intracellular-trafficking" id="toc-intracellular-trafficking" class="nav-link" data-scroll-target="#intracellular-trafficking"><span class="toc-section-number">3.4</span>  Intracellular Trafficking</a></li>
+  <li><a href="#uncoating" id="toc-uncoating" class="nav-link" data-scroll-target="#uncoating"><span class="toc-section-number">3.5</span>  Uncoating</a>
+  <ul class="collapse">
+  <li><a href="#example-influenza-virus" id="toc-example-influenza-virus" class="nav-link" data-scroll-target="#example-influenza-virus"><span class="toc-section-number">3.5.1</span>  Example: Influenza Virus</a></li>
+  </ul></li>
+  <li><a href="#nuclear-import" id="toc-nuclear-import" class="nav-link" data-scroll-target="#nuclear-import"><span class="toc-section-number">3.6</span>  Nuclear Import</a></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/kevfo/BS3037_Notes/edit/main/chapters/week3.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/kevfo/BS3037_Notes/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Strategies for Virus Entry</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    
+  </div>
+  
+
+</header>
+
+<p>Viruses need to use parts of the host cell to make copies of themselves. This means they have to closely connect with the cell to get what they need.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week3/attach.png" class="img-fluid figure-img" width="264"></p>
+<p></p><figcaption class="figure-caption">Attachment and Entry into a Cell by a Pseudorabies Virus Seen Under TEM</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Viruses have three important tasks to get inside a cell. First, they stick to the cell’s surface. Then, they get inside the cell. Once inside, they uncover their genetic material, releasing it into the cell’s center.</p>
+<section id="virus-attachment" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="virus-attachment"><span class="header-section-number">3.1</span> Virus Attachment</h2>
+<p>When a virus wants to get into a cell, it starts by attaching itself to the cell’s surface. This only works if the virus can connect with certain cell surface parts called <strong>receptors</strong>. It’s the initial step in the process.</p>
+<section id="attachment-for-enveloped-viruses" class="level3" data-number="3.1.1">
+<h3 data-number="3.1.1" class="anchored" data-anchor-id="attachment-for-enveloped-viruses"><span class="header-section-number">3.1.1</span> Attachment for Enveloped Viruses</h3>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week3/types.png" class="img-fluid figure-img" width="146"></p>
+<p></p><figcaption class="figure-caption">Types of Spikes Used by Enveloped Viruses</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Viruses use their proteins to attach to cells. Viruses with envelopes do this wtih spikes on their surface. There are two types of these spikes covered in this course:</p>
+<ol type="1">
+<li><p><strong>Type I</strong></p>
+<p>Examples are HIV’s gp120 and the HA protein in influenza viruses.</p></li>
+<li><p><strong>Type II</strong></p>
+<p>This includes the G protein in paramyxoviruses.</p></li>
+</ol>
+</section>
+<section id="non-enveloped-viruses" class="level3" data-number="3.1.2">
+<h3 data-number="3.1.2" class="anchored" data-anchor-id="non-enveloped-viruses"><span class="header-section-number">3.1.2</span> Non-Enveloped Viruses</h3>
+<p>Non-enveloped viruses have a different way of attaching to cells. They use parts that stick out from their outer shell, called the capsid. These parts can be:</p>
+<ol type="1">
+<li><p><strong>Projections</strong></p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week3/capsid.png" class="img-fluid figure-img" width="172"></p>
+<p></p><figcaption class="figure-caption">Capsid Projections in the Adenovirus</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Like the trimeric fiber proteins in Adenovirus.</p></li>
+<li><p><strong>Regions</strong></p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week3/canyon.png" class="img-fluid figure-img" width="460"></p>
+<p></p><figcaption class="figure-caption">Capsid Protein C</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Some parts of the capsid protein, such as the “canyon” in picornaviruses.</p></li>
+</ol>
+</section>
+<section id="cell-receptors" class="level3" data-number="3.1.3">
+<h3 data-number="3.1.3" class="anchored" data-anchor-id="cell-receptors"><span class="header-section-number">3.1.3</span> Cell Receptors</h3>
+<p>Viruses use <strong>cell receptors</strong> to stick to cells. These are like keys that fit into specific locks on the cell’s surface. There are two main types of receptors: proteins and carbohydrates.</p>
+<p>Viruses can connect to <strong>primary receptors</strong>, which are like main locks, and sometimes to <strong>secondary receptors</strong>, which are like extra locks. For example, HIV-1 uses CD4 as its main lock, and CCR5 is like an extra lock.</p>
+<section id="protein-receptors" class="level4" data-number="3.1.3.1">
+<h4 data-number="3.1.3.1" class="anchored" data-anchor-id="protein-receptors"><span class="header-section-number">3.1.3.1</span> Protein Receptors</h4>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week3/proteins.png" class="img-fluid figure-img" width="274"></p>
+<p></p><figcaption class="figure-caption">Various Types of Protein Receptors on Host Cells</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>There are many different molecules on the surface of cells that act like doors for viruses.</p>
+<p>Some of these molecules don’t seem to do anything else (e.g., PVR for Poliovirus), while others have a specific job (e.g., CD55 for Echovirus, which helps with the immune system).</p>
+<section id="identifying-protein-receptors" class="level5" data-number="3.1.3.1.1">
+<h5 data-number="3.1.3.1.1" class="anchored" data-anchor-id="identifying-protein-receptors"><span class="header-section-number">3.1.3.1.1</span> Identifying Protein Receptors</h5>
+<p>There are several ways:</p>
+<ol type="1">
+<li><p><strong>Using Specific Monoclonal Antibodies</strong></p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week3/antibo.png" class="img-fluid figure-img" width="281"></p>
+<p></p><figcaption class="figure-caption">Using Antibodies to Detect Virus Binding</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>One way is by using specific <strong>monoclonal antibodies</strong>, which are like tiny soldiers that target and block the virus from sticking to the receptor. Another method is to use a receptor in a soluble form, like a decoy, to catch the virus before it attaches. Lastly, researchers might use a <strong>receptor antagonist</strong>, which is like a blocker, to prevent the virus from binding to the receptor.</p>
+<p>To see if the virus is there, scientists can use something called <strong>ELISA</strong>, which is a bit like a virus detector test for the cell’s surface.</p></li>
+<li><p><strong>Virus Overlay Protein Blot Assay</strong></p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week3/blot.png" class="img-fluid figure-img" width="396"></p>
+<p></p><figcaption class="figure-caption">A Schematic of a Blot Assay</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>It’s a bit like when placing a sticker on a piece of paper. The virus sticks to these proteins that are put on a special paper. For example, the lymphocytic choriomeningitis virus sticks to a protein called α-dystroglycan that’s on the paper. This helps scientists understand how viruses attach to cells.</p></li>
+</ol>
+</section>
+</section>
+<section id="carbohydrate-receptors" class="level4" data-number="3.1.3.2">
+<h4 data-number="3.1.3.2" class="anchored" data-anchor-id="carbohydrate-receptors"><span class="header-section-number">3.1.3.2</span> Carbohydrate Receptors</h4>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week3/carbs.png" class="img-fluid figure-img" width="406"></p>
+<p></p><figcaption class="figure-caption">Examples of Carbohydrate Receptors</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Certain viruses have developed a clever strategy – they’ve learned to attach to carbohydrate molecules on the surface of cells. These carbohydrates are like flags on the cells, made of special sugars. These flags are found on proteins and fats on the cell’s surface. The fascinating thing is that these flags are present on cells from various animals. So, these viruses can infect a wide range of hosts, kind of like having a key that fits many different locks.</p>
+<section id="identifyign-carbohydrate-receptors" class="level5" data-number="3.1.3.2.1">
+<h5 data-number="3.1.3.2.1" class="anchored" data-anchor-id="identifyign-carbohydrate-receptors"><span class="header-section-number">3.1.3.2.1</span> Identifyign Carbohydrate Receptors</h5>
+<p>There are three main ways:</p>
+<ol type="1">
+<li><p><strong>Virus Protein Properties</strong></p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week3/sendai.png" class="img-fluid figure-img" width="428"></p>
+<p></p><figcaption class="figure-caption">A Schematic of the Sendai (i.e., Paramyxovirus) Virus</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Sometimes, the characteristics of certain virus proteins can provide hints about how they work.</p>
+<p>For instance, some viruses have proteins with sugar molecules attached (glycoproteins), and these proteins can do interesting things. For example, the attachment protein (HN) in the Sendai virus has a special ability called <strong>neuraminidase activity</strong>, which suggests that a sugar molecule called <strong>sialic acid</strong> might be really important for the virus to stick to cells.</p></li>
+<li><p><strong>Enzymes that Remove or Destroy a type of Carbohydrate</strong></p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week3/carbbad.png" class="img-fluid figure-img" width="404"></p>
+<p></p><figcaption class="figure-caption">Destroying a Certain Kind of Carbohydrate</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>There are enzymes that can do just that! One of these enzymes is called <strong>n</strong>eur<strong>a</strong>minidase (NA), and it works by removing a particular kind of sugar molecule called sialic acid from the cell’s surface.</p>
+<p>This sugar is like a lock that the influenza A virus uses to attach to cells. When we use neuraminidase to take away this lock, the virus can’t get in. This is like having a way to break the virus’s key, so it can’t open the cell’s door anymore.</p></li>
+<li><p><strong>Antibodies to Block Virus Attachment</strong></p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week3/pro.png" class="img-fluid figure-img" width="344"></p>
+<p></p><figcaption class="figure-caption">Using Proteins to Inhibit Virus Binding</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Think of antibodies as tiny warriors that can fight against viruses. Some antibodies are really good at stopping viruses from attaching to cells. For instance, there’s a specific antibody called anti-galactosyl ceramide that can act like a shield to block HIV from infecting cells. It’s like having a superhero shield that stops the virus from getting close to the cell’s entrance.</p></li>
+</ol>
+</section>
+</section>
+</section>
+<section id="why-target-virus-receptors" class="level3" data-number="3.1.4">
+<h3 data-number="3.1.4" class="anchored" data-anchor-id="why-target-virus-receptors"><span class="header-section-number">3.1.4</span> Why Target Virus Receptors?</h3>
+<p>Finding out about virus receptors is like discovering the virus’s weak point. When we know which parts of cells the virus uses to attach, we can figure out how to stop it. This means we might be able to prevent the virus from getting into cells in the first place. There are different ways to do this, like using special antibodies that can neutralize the virus or using a kind of decoy - a soluble form of the receptor - that tricks the virus into attaching to it instead of the real cells. It’s like setting up traps to catch the virus before it can cause harm.</p>
+</section>
+</section>
+<section id="virus-internalization" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="virus-internalization"><span class="header-section-number">3.2</span> Virus Internalization</h2>
+<p>Once the virus sticks to the cell, it needs to deliver its genetic material inside so it can make copies. To do this, the virus triggers certain signals that help it get inside the cell. It’s like the virus is sending messages to open the cell’s door. When the virus first connects with the receptor, it can set off a chain reaction of signals.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week3/structures.png" class="img-fluid figure-img" width="278"></p>
+<p></p><figcaption class="figure-caption">Various Cell Structures in Virus Entry</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>For example, the Adenovirus uses a receptor called <strong>integrin a2b3</strong>. When this connection happens, it’s like pressing a button that activates different processes inside the cell. This includes things like PI3K getting activated, which is like starting a car’s engine. Then, molecules like PIP3 work like fuel, making another process called rho GTPases start. This process changes the cell’s shape, helping the virus get inside. It’s kind of like the virus is using a series of switches and levers to open a secret door into the cell.</p>
+</section>
+<section id="virus-entry" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="virus-entry"><span class="header-section-number">3.3</span> Virus Entry</h2>
+<p>Enveloped viruses have two main ways to enter cells. First, they can fuse their outer layer with the cell’s outer layer, like two bubbles merging. Second, they can hitch a ride inside the cell through a process called receptor-mediated endocytosis, like a Trojan horse sneaking in.</p>
+<p>On the other hand, non-enveloped viruses use different tactics to get inside cells. For example, the poliovirus changes its shape when it connects to a receptor (i.e., A particles), creating a tiny hole in the endosome where it’s trapped. Through this hole, the virus’s genetic material can slip into the cell, a bit like a secret passage being unlocked.</p>
+<section id="viral-fusion-proteins" class="level3" data-number="3.3.1">
+<h3 data-number="3.3.1" class="anchored" data-anchor-id="viral-fusion-proteins"><span class="header-section-number">3.3.1</span> Viral Fusion Proteins</h3>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week3/viralfusion.png" class="img-fluid figure-img" width="359"></p>
+<p></p><figcaption class="figure-caption">Activation of a Viral Fusion Protein via Proteolysis</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Virus fusion proteins are a special kind of membrane protein that help viruses merge their outer layer with a cell’s outer layer. Some examples are the influenza virus’s hemagglutinin (HA), SARS CoV-2’s S protein, and dengue virus’s E protein.</p>
+<p>These proteins usually start in a quiet state, not ready to fuse. But then, they change into an active form, like waking up, thanks to certain actions like proteolysis. Another trigger then turns this active form into the even more active “fusogenic” form.</p>
+<p>In this supercharged state, a part of the protein that doesn’t like water gets stuck into the cell’s outer layer. The fusion protein then twists and changes shape, making the virus and cell outer layers join together, a bit like a zipper closing.</p>
+</section>
+<section id="mechanisms-by-enveloped-viruses" class="level3" data-number="3.3.2">
+<h3 data-number="3.3.2" class="anchored" data-anchor-id="mechanisms-by-enveloped-viruses"><span class="header-section-number">3.3.2</span> Mechanisms by Enveloped Viruses</h3>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week3/ph.png" class="img-fluid figure-img" width="320"></p>
+<p></p><figcaption class="figure-caption">pH Dependent and pH Independent Viruses</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>There are two ways enveloped viruses can enter cells: ones that care about pH and ones that don’t. We can tell the difference by using special compounds like chloroquine and monensin, which stop acidic stuff in the endosomes from working. The way a virus enters depends on its fusion protein, a bit like how different keys fit different locks.</p>
+<section id="example-of-a-ph-dependent-mechanism" class="level4" data-number="3.3.2.1">
+<h4 data-number="3.3.2.1" class="anchored" data-anchor-id="example-of-a-ph-dependent-mechanism"><span class="header-section-number">3.3.2.1</span> Example of a pH Dependent Mechanism</h4>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week3/phd.png" class="img-fluid figure-img" width="428"></p>
+<p></p><figcaption class="figure-caption">HA Helping an Influenza Virus Gain Entry into a Cell</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>First, the virus sticks to a receptor called sialic acid, and the cell brings it inside using endocytosis, like a package delivery.</p>
+<p>Inside the cell, the endosome’s pH becomes more acidic, like a lemon. This acid bath causes a transformation in the virus’s <strong>h</strong>em<strong>a</strong>gglutinin (i.e., <strong>HA</strong>) protein. It goes from a quiet state to a supercharged one, ready to fuse. This HA now acts like a bridge between the virus and the endosomal membrane. It pulls them together, making them become one, like joining two puzzle pieces.</p>
+</section>
+<section id="example-of-a-ph-independent-mechanism" class="level4" data-number="3.3.2.2">
+<h4 data-number="3.3.2.2" class="anchored" data-anchor-id="example-of-a-ph-independent-mechanism"><span class="header-section-number">3.3.2.2</span> Example of a pH Independent Mechanism</h4>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week3/sendai2.png" class="img-fluid figure-img" width="440"></p>
+<p></p><figcaption class="figure-caption">Sendai Virus Gaining Entry into a Cell</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Fusion happens at a normal pH, like the one in our bodies, and it’s controlled by a special virus protein called the fusion (F) protein.</p>
+<p>The process begins with the virus attachment protein (HN) connecting to the cell’s receptor (sialic acid). This connection makes the HN change shape. This shape change then causes the F protein to also change shape. Think of it like a domino effect: the first domino (HN) falls, which makes the second one (F protein) tip over. This change in the F protein is like a key turning in a lock, allowing the virus and cell membranes to fuse together, a bit like two soap bubbles merging.</p>
+</section>
+<section id="cell-to-cell-fusion-virus-transmission" class="level4" data-number="3.3.2.3">
+<h4 data-number="3.3.2.3" class="anchored" data-anchor-id="cell-to-cell-fusion-virus-transmission"><span class="header-section-number">3.3.2.3</span> Cell-to-Cell Fusion Virus Transmission</h4>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week3/cell.png" class="img-fluid figure-img" width="288"></p>
+<p></p><figcaption class="figure-caption">Viral Fusion Transmission</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Sometimes, infection can happen in a unique way: the outer shell of an infected cell fuses directly with an uninfected cell’s outer shell.</p>
+<p>This fusion can lead to the creation of big cells with multiple nuclei, kind of like cells joining together to form a team. This is seen in various tissues and cells.</p>
+<p>A group of viruses called <strong>paramyxoviruses</strong>, such as the respiratory syncytial virus, are known to cause this kind of fusion. It’s like the viruses are playing a trick, making cells merge and work together, but it’s not for the good – it helps the virus spread.</p>
+</section>
+</section>
+<section id="mechanisms-by-non-enveloped-viruses" class="level3" data-number="3.3.3">
+<h3 data-number="3.3.3" class="anchored" data-anchor-id="mechanisms-by-non-enveloped-viruses"><span class="header-section-number">3.3.3</span> Mechanisms by Non-Enveloped Viruses</h3>
+<p>Non-enveloped viruses have another way to get their genetic material into cells.</p>
+<p>One way is by creating a protein-made pore in the cell’s outer layer. Think of it like poking a small hole in a balloon.</p>
+<p>Another way is by messing up the cell’s outer layer when the virus is taken inside through endocytosis. It’s like opening a door, but making a bit of a mess in the process. This helps the virus get its genetic material where it needs to go.</p>
+<section id="example-poliovirus-uncoating" class="level4" data-number="3.3.3.1">
+<h4 data-number="3.3.3.1" class="anchored" data-anchor-id="example-poliovirus-uncoating"><span class="header-section-number">3.3.3.1</span> Example: Poliovirus Uncoating</h4>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week3/uncoating.png" class="img-fluid figure-img" width="252"></p>
+<p></p><figcaption class="figure-caption">Poliovirus Uncoating Mechanism</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Poliovirus goes through a series of shape changes when it meets the cell’s surface. These changes help the virus send its genetic material inside the cell.</p>
+<p>Scientists can tell these different forms apart by how they behave when spun in a machine called a <strong>centrifuge</strong>. It’s like sorting different types of beads by spinning them really fast – each type settles at a different level.</p>
+</section>
+</section>
+</section>
+<section id="intracellular-trafficking" class="level2" data-number="3.4">
+<h2 data-number="3.4" class="anchored" data-anchor-id="intracellular-trafficking"><span class="header-section-number">3.4</span> Intracellular Trafficking</h2>
+<p>To move their capsids around inside the cell, viruses use special transport systems within the cytoplasm.</p>
+<p>For short distances near the cell’s surface, they travel along actin filaments. It’s like taking a short walk around the neighborhood.</p>
+<p>For longer journeys, they use microtubules. These are like highways within the cell. Imagine driving a longer distance on a big road.</p>
+<p>These capsids can hitch rides in endocytic vesicles, like getting inside small vehicles. They then travel through the cell’s interior, where they link up with tiny motors like dynein. These motors help them move, a bit like being pulled along by a tiny train.</p>
+</section>
+<section id="uncoating" class="level2" data-number="3.5">
+<h2 data-number="3.5" class="anchored" data-anchor-id="uncoating"><span class="header-section-number">3.5</span> Uncoating</h2>
+<p>Uncoating is the last step of the entry process, where the virus sets its genetic material free into the cell’s center. This genetic material is enclosed by a matrix protein.</p>
+<p>The matrix protein gets separated from the genetic material through a process where the virus’s interior becomes more acidic. This acidification is helped by a protein called <strong>M2</strong> that the virus carries with it. It’s like the virus has a special key that makes the interior more acidic, and this helps unlock the genetic material from the matrix protein.</p>
+<section id="example-influenza-virus" class="level3" data-number="3.5.1">
+<h3 data-number="3.5.1" class="anchored" data-anchor-id="example-influenza-virus"><span class="header-section-number">3.5.1</span> Example: Influenza Virus</h3>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week3/fluvirus.png" class="img-fluid figure-img" width="275"></p>
+<p></p><figcaption class="figure-caption">Uncoating of the Influenza Virus</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>When it comes to influenza virus, uncoating involves a specific process. The M2 ion channel, acting like a tiny gate, lets protons from the endosome into the virus. This makes the virus’s insides more acidic, which helps break apart the connection between the M1 protein and the <strong>r</strong>ibo<strong>n</strong>ucleo<strong>p</strong>roteins (<strong>RNP</strong>s, which carry the genetic material).</p>
+<p>This process is quite important for designing antiviral drugs. For instance, <strong>amantadine</strong> is a drug that interferes with the activity of the M2 protein. By blocking the M2 protein’s function, it’s like putting a lock on that tiny gate and preventing the virus from undergoing the uncoating process effectively.</p>
+</section>
+</section>
+<section id="nuclear-import" class="level2" data-number="3.6">
+<h2 data-number="3.6" class="anchored" data-anchor-id="nuclear-import"><span class="header-section-number">3.6</span> Nuclear Import</h2>
+<p>Some viruses, both those made of DNA and a few from RNA, carry out their replication inside the cell’s nucleus.</p>
+<p>For this to happen, the virus’s genetic material and its accompanying proteins have to get inside the nucleus through something called the <strong>n</strong>uclear <strong>p</strong>ore <strong>c</strong>omplex (i.e., <strong>NPC</strong>).</p>
+<p>This transport through the NPC involves a series of steps:</p>
+<ol type="1">
+<li>The virus has to move from the cytosol to the nucleus.</li>
+<li>It needs to bind to the NPC, like finding the right door.</li>
+<li>It has to pass through the pore itself.</li>
+<li>Importantly, the virus proteins need to have a <strong>N</strong>uclear <strong>L</strong>ocalization <strong>S</strong>ignal (i.e., <strong>NLS</strong>) so that importin proteins can recognize them. This NLS acts like a passport that allows the virus proteins entry into the nucleus. This process can also affect the virus’s ability to infect different hosts, like how the flu virus’s host range might be determined in part by whether its proteins can be recognized by importin proteins.</li>
+</ol>
+<p>NPCs have a diameter of about 39 nanometers. Only the smallest virus capsids, such as Parvovirus, can fit through without any changes. However, larger viruses face a challenge due to their big size. They need to undergo some changes, like taking off a piece of their outer layer.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week3/import.png" class="img-fluid figure-img" width="245"></p>
+<p></p><figcaption class="figure-caption">Various Viruses’ Nuclear Import Mechanism</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>For example, the adenovirus changes its structure a bit and attaches to specific parts of the NPC, allowing its DNA to slip through. In the case of viruses like HSV (herpes simplex virus), they have special proteins that help them grab onto the NPC, and this helps their DNA get inside the nucleus. For viruses like influenza, which has a segmented genome, the individual segments (kind of like puzzle pieces) go through the NPC one by one. It’s like getting a large piece of furniture through a narrow doorway by taking it apart and reassembling it inside.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  let localAlternateSentinel = 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } 
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../chapters/week2.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Seeing Viruses</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+</body></html>
