@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>BS3037: Virology - 3&nbsp; Seeing Viruses</title>
+<title>BS3037: Virology - 4&nbsp; Growing and Counting Viruses</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../chapters/tut2.html" rel="next">
-<link href="../chapters/week3.html" rel="prev">
+<link href="../chapters/week2.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -64,7 +63,6 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <script async="" src="https://hypothes.is/embed.js"></script>
 
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 </head>
 
@@ -74,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Seeing Viruses</span></h1>
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Growing and Counting Viruses</span></h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -156,12 +154,12 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../chapters/week2.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Seeing Viruses</span></a>
+  <a href="../chapters/week2.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Seeing Viruses</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../chapters/tut2.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Growing and Counting Viruses</span></a>
+  <a href="../chapters/tut2.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Growing and Counting Viruses</span></a>
   </div>
 </li>
       </ul>
@@ -175,27 +173,26 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#light-microscopy" id="toc-light-microscopy" class="nav-link active" data-scroll-target="#light-microscopy"><span class="toc-section-number">3.1</span>  Light Microscopy</a>
+  <li><a href="#cultivating-viruses" id="toc-cultivating-viruses" class="nav-link active" data-scroll-target="#cultivating-viruses"><span class="toc-section-number">4.1</span>  Cultivating Viruses</a>
   <ul class="collapse">
-  <li><a href="#fluorescence-microscopy" id="toc-fluorescence-microscopy" class="nav-link" data-scroll-target="#fluorescence-microscopy"><span class="toc-section-number">3.1.1</span>  Fluorescence microscopy</a></li>
-  <li><a href="#fixed-cell-viewing" id="toc-fixed-cell-viewing" class="nav-link" data-scroll-target="#fixed-cell-viewing"><span class="toc-section-number">3.1.2</span>  Fixed Cell Viewing</a></li>
-  <li><a href="#live-fluorescence-imaging" id="toc-live-fluorescence-imaging" class="nav-link" data-scroll-target="#live-fluorescence-imaging"><span class="toc-section-number">3.1.3</span>  Live Fluorescence Imaging</a></li>
+  <li><a href="#cytopathic-effect" id="toc-cytopathic-effect" class="nav-link" data-scroll-target="#cytopathic-effect"><span class="toc-section-number">4.1.1</span>  Cytopathic Effect</a></li>
+  <li><a href="#particle-pfu-ratio" id="toc-particle-pfu-ratio" class="nav-link" data-scroll-target="#particle-pfu-ratio"><span class="toc-section-number">4.1.2</span>  Particle / PFU Ratio</a></li>
+  <li><a href="#multiplicity-of-infection-i.e.-moi" id="toc-multiplicity-of-infection-i.e.-moi" class="nav-link" data-scroll-target="#multiplicity-of-infection-i.e.-moi"><span class="toc-section-number">4.1.3</span>  Multiplicity of Infection (i.e., MOI)</a></li>
   </ul></li>
-  <li><a href="#electron-microscopy" id="toc-electron-microscopy" class="nav-link" data-scroll-target="#electron-microscopy"><span class="toc-section-number">3.2</span>  Electron Microscopy</a>
+  <li><a href="#quantifying-viruses" id="toc-quantifying-viruses" class="nav-link" data-scroll-target="#quantifying-viruses"><span class="toc-section-number">4.2</span>  Quantifying Viruses</a>
   <ul class="collapse">
-  <li><a href="#scanning-electron-microscopy-i.e.-sem" id="toc-scanning-electron-microscopy-i.e.-sem" class="nav-link" data-scroll-target="#scanning-electron-microscopy-i.e.-sem"><span class="toc-section-number">3.2.1</span>  Scanning Electron Microscopy (i.e., SEM)</a></li>
-  <li><a href="#transmission-electron-microscopy-i.e.-tem" id="toc-transmission-electron-microscopy-i.e.-tem" class="nav-link" data-scroll-target="#transmission-electron-microscopy-i.e.-tem"><span class="toc-section-number">3.2.2</span>  Transmission Electron Microscopy (i.e., TEM)</a></li>
+  <li><a href="#virus-infectivity-assays" id="toc-virus-infectivity-assays" class="nav-link" data-scroll-target="#virus-infectivity-assays"><span class="toc-section-number">4.2.1</span>  Virus Infectivity Assays</a></li>
+  <li><a href="#other-assays" id="toc-other-assays" class="nav-link" data-scroll-target="#other-assays"><span class="toc-section-number">4.2.2</span>  Other Assays</a></li>
   </ul></li>
-  <li><a href="#pros-and-cons-of-light-and-electron-microscopy" id="toc-pros-and-cons-of-light-and-electron-microscopy" class="nav-link" data-scroll-target="#pros-and-cons-of-light-and-electron-microscopy"><span class="toc-section-number">3.3</span>  Pros and Cons of Light and Electron Microscopy</a></li>
   </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/kevfo/BS3037_Notes/edit/main/chapters/week2.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/kevfo/BS3037_Notes/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/kevfo/BS3037_Notes/edit/main/chapters/tut2.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/kevfo/BS3037_Notes/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Seeing Viruses</span></h1>
+<h1 class="title d-none d-lg-block"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Growing and Counting Viruses</span></h1>
 </div>
 
 
@@ -209,206 +206,142 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../imgs/week2/sizes.png" class="img-fluid figure-img" width="252"></p>
-<p></p><figcaption class="figure-caption">Sizes of Objects</figcaption><p></p>
-</figure>
-</div>
-</div>
-</div>
-<p>The study of parasites, fungi, bacteria, and viruses can be broken down into different parts, and each entity has their own way of storing genetic information. This, in turn, affects the way that they divide and interact with the organisms that they infect.</p>
-<p>This week’s lecture talks about light and electron microscopy.</p>
-<section id="light-microscopy" class="level2" data-number="3.1">
-<h2 data-number="3.1" class="anchored" data-anchor-id="light-microscopy"><span class="header-section-number">3.1</span> Light Microscopy</h2>
-<section id="fluorescence-microscopy" class="level3" data-number="3.1.1">
-<h3 data-number="3.1.1" class="anchored" data-anchor-id="fluorescence-microscopy"><span class="header-section-number">3.1.1</span> Fluorescence microscopy</h3>
-<p><strong>Fluorescence microscopy</strong> is a way to get a closer look at cells. In this approach and context, scientists use antibodies that stick to specific parts of the virus. The antibodies usually have a fluorescent tag that glow when light is shone on it. Different tags glow different colors, and this information is useful to help scientists identify what they see.</p>
-<p>This kind of microscopy can help scientists see parts of viruses in the context of cellular compartments. Some examples of antibodies and the structures they illuminate include:</p>
-<ul>
-<li>Anti-Lamin <span class="math inline">\(\rightarrow\)</span> Nucleus</li>
-<li>Anti-GM130 <span class="math inline">\(\rightarrow\)</span> Golgi</li>
-<li>Anti-LAMP1 <span class="math inline">\(\rightarrow\)</span> Lysosome</li>
-<li>Phalloldin FITC <span class="math inline">\(\rightarrow\)</span> F-actin</li>
-<li>Cholera toxin B subunit-FITC <span class="math inline">\(\rightarrow\)</span> GM1 in lipid rafts</li>
-<li>DAPI <span class="math inline">\(\rightarrow\)</span> Nucleus</li>
-</ul>
-</section>
-<section id="fixed-cell-viewing" class="level3" data-number="3.1.2">
-<h3 data-number="3.1.2" class="anchored" data-anchor-id="fixed-cell-viewing"><span class="header-section-number">3.1.2</span> Fixed Cell Viewing</h3>
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../imgs/week2/cellFix.png" class="img-fluid figure-img" width="497"></p>
-<p></p><figcaption class="figure-caption">Examples of Fixed Cell Microscopy and Antibodies</figcaption><p></p>
-</figure>
-</div>
-</div>
-</div>
-<p>Sometimes, scientists also use special liquids to fixate cells that have been infected by viruses in order to study them. Different antibodies are then used to color parts of the virus and the cell; this helps scientists see how the virus and the cell’s structures are connected.</p>
-</section>
-<section id="live-fluorescence-imaging" class="level3" data-number="3.1.3">
-<h3 data-number="3.1.3" class="anchored" data-anchor-id="live-fluorescence-imaging"><span class="header-section-number">3.1.3</span> Live Fluorescence Imaging</h3>
-<p>This kind of microscopy involves watching cells without making them remain still. These cells are kept alive and healthy under certain conditions.</p>
-<p>Scientists create viruses that have a protein that glows (i.e., a little “light bulb”) and they can also create cells that produce glowing proteins. This enables scientists to see what is happening inside the cells at the moment.</p>
-</section>
-</section>
-<section id="electron-microscopy" class="level2" data-number="3.2">
-<h2 data-number="3.2" class="anchored" data-anchor-id="electron-microscopy"><span class="header-section-number">3.2</span> Electron Microscopy</h2>
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../imgs/week2/semtem.png" class="img-fluid figure-img" width="476"></p>
-<p></p><figcaption class="figure-caption">A Transmission Electron Microscope and a Scanning Electron Microscope</figcaption><p></p>
-</figure>
-</div>
-</div>
-</div>
-<p>Using an electron microscope is a complicated deal and one needs expertise to operate and prepare samples. On one hand, electron microscopes can magnify and show a lot of tiny details, but there’s a downside to this: the microscope works in a <strong>vacuum</strong> - a space without air - so samples need to be dry.</p>
-<p>Scientists use these techniques to see things up close using special labels. They attach tiny gold particles to antibodies, and these antibodies can be seen under the microscope and identify specific parts in the samples that they’re looking at.</p>
-<section id="scanning-electron-microscopy-i.e.-sem" class="level3" data-number="3.2.1">
-<h3 data-number="3.2.1" class="anchored" data-anchor-id="scanning-electron-microscopy-i.e.-sem"><span class="header-section-number">3.2.1</span> Scanning Electron Microscopy (i.e., SEM)</h3>
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../imgs/week2/SEMSamples.png" class="img-fluid figure-img" width="468"></p>
-<p></p><figcaption class="figure-caption">Examples of Samples Viewed using Scanning Electron Microscopy</figcaption><p></p>
-</figure>
-</div>
-</div>
-</div>
-<p><strong>S</strong>canning <strong>e</strong>lectron <strong>m</strong>icroscopy (i.e., <strong>SEM</strong>) is a method used to look at the outside of cells or bigger parts like viruses. Cells are first treated with something called <strong>critical point drying</strong> to make sure that they’re ready for the microscope.</p>
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../imgs/week2/SEMprotocol.png" class="img-fluid figure-img" width="474"></p>
-<p></p><figcaption class="figure-caption">Outline of How SEM Works</figcaption><p></p>
-</figure>
-</div>
-</div>
-</div>
-<p>The above figure outlines how SEM typically works:</p>
+<p>Viruses, tiny infectious agents, don’t have their own energy production, so they rely on the inner workings of host cells to function. This close connection means they interact closely with the cells they infect. To grow and study viruses, scientists use cells in which viruses can multiply. Additionally, determining the amount of virus in a given sample is important for understanding infections.</p>
+<section id="cultivating-viruses" class="level2" data-number="4.1">
+<h2 data-number="4.1" class="anchored" data-anchor-id="cultivating-viruses"><span class="header-section-number">4.1</span> Cultivating Viruses</h2>
+<p>Three people - John Enders, Thomas Weller, and Frederick Robbins - were able to grow poliovirus particles in human cells.</p>
+<p>When it comes to growing viruses, scientists use different types of cell systems:</p>
 <ol type="1">
-<li><p><strong>Fixation</strong></p>
-<p>Scientist ensure that the cells or samples are fixed. This is almost like taking a picture to ensure that everything stays still.</p></li>
-<li><p><strong>Drying</strong></p>
-<p>Water is removed from the samples. Water can mess up the microscope.</p></li>
-<li><p><strong>Critical Point Drying</strong></p>
-<p>This is akin to freeze-drying, but is a technique that helps keep the samples in a good shape for the microscope.</p></li>
-<li><p><strong>Coating</strong></p>
-<p>The sample is coated with a thin layer of a special material - usually metal - to make the samples stronger and ready for the microscope.</p></li>
-<li><p><strong>SEM Analysis</strong></p>
-<p>The sample is put into a SEM - this microscope uses special light to take a super close-up picture of the samples. Scientists can then study these pictures to know more about what it is that they’re looking at.</p></li>
+<li><p><strong>Primary Cells</strong></p>
+<p>These are directly taken from tissues and not repeatedly grown in culture. These cells, like chick embryo fibroblasts (CEF), closely resemble the original tissue, but their preparation can be complex and requires tissue access.</p></li>
+<li><p><strong>Cell Lines</strong></p>
+<p>These are cells that have been made immortal through processes like transformation, as seen in Vero cells and MDCK cells. While they are easy to maintain, they might lose some characteristics of the original tissue.</p></li>
+<li><p><strong>Animal Tissues or Structures</strong></p>
+<p>This may involve tissues or structures from animals, such as using suckling mouse brain for flaviviruses or embryonated eggs for influenza.</p></li>
+</ol>
+<p>The choice of cell system depends on the virus being studied; for example, MDCK cells are preferred for growing influenza viruses.</p>
+<p>To gather viruses from an infected host, scientists can collect substances like excretions, secretions, blood, or tissue, and then use these materials to infect cell cultures. The virus obtained from this process is known as a <strong>virus isolate</strong>.</p>
+<p>Sometimes, viruses change to grow better in specific cell lines, leading to genetic modifications associated with adapting to cell cultures. This can be problematic for researchers wanting to study the virus in its natural form (undesirable), but it’s also useful for developing weakened virus vaccines (desirable) since it forms the foundation for making attenuated viral vaccines.</p>
+<section id="cytopathic-effect" class="level3" data-number="4.1.1">
+<h3 data-number="4.1.1" class="anchored" data-anchor-id="cytopathic-effect"><span class="header-section-number">4.1.1</span> Cytopathic Effect</h3>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week2/cytopath.png" class="img-fluid figure-img" width="324"></p>
+<p></p><figcaption class="figure-caption">Example of the Cytopathic Effect</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>When viruses infect cultured cells, they can cause different visual changes in the cells’ appearance. These changes are collectively called <strong>cytopathic effect</strong> or “CPE”. The specific type of CPE can vary depending on the virus and the type of cell it infects.</p>
+</section>
+<section id="particle-pfu-ratio" class="level3" data-number="4.1.2">
+<h3 data-number="4.1.2" class="anchored" data-anchor-id="particle-pfu-ratio"><span class="header-section-number">4.1.2</span> Particle / PFU Ratio</h3>
+<p>The <strong>particle</strong> or <strong>pfu ratio</strong> is a comparison between the total number of virus particles and the number of infectious particles, usually measured in <strong>p</strong>laque <strong>f</strong>orming <strong>u</strong>nits (i.e., <strong>pfu</strong>). In an ideal scenario, this ratio would be 1.0, indicating that all particles are infectious.</p>
+<p>However, in real-world situations, this ratio is typically greater than 1.0. For instance, with influenza, this ratio can be around 10, suggesting that not all virus particles are capable of causing infection.</p>
+</section>
+<section id="multiplicity-of-infection-i.e.-moi" class="level3" data-number="4.1.3">
+<h3 data-number="4.1.3" class="anchored" data-anchor-id="multiplicity-of-infection-i.e.-moi"><span class="header-section-number">4.1.3</span> Multiplicity of Infection (i.e., MOI)</h3>
+<p>The <strong>M</strong>ultiplicity <strong>o</strong>f <strong>I</strong>nfection (i.e., <strong>moi</strong>) measures the average amount of infectious virus introduced to each cell. For instance, an moi of 1 means adding 1 pfu per cell. It’s important to determine this for a specific virus stock preparation.</p>
+<p>To create a virus stock, a low moi is used, usually ranging from 0.01 to 0.1. This helps prevent the creation of defective interfering particles, which would increase the particle/pfu ratio.</p>
+<p>On the other hand, studies focusing on virus replication use a higher moi, typically between 5 and 10, ensuring that all cells are infected simultaneously. To calculate moi accurately, it’s necessary to know both the cell count and the number of infectious particles being added.</p>
+</section>
+</section>
+<section id="quantifying-viruses" class="level2" data-number="4.2">
+<h2 data-number="4.2" class="anchored" data-anchor-id="quantifying-viruses"><span class="header-section-number">4.2</span> Quantifying Viruses</h2>
+<p>There are two main types of assays used to study viruses:</p>
+<ol type="1">
+<li><p><strong>Infectivity assays</strong></p>
+<p>These tests are designed to measure the presence of infectious virus particles. They determine whether the virus is capable of infecting and replicating within host cells.</p></li>
+<li><p><strong>Non-infectivity assays</strong></p>
+<p>These assays are used to measure the quantity of virus present in a sample, regardless of whether the virus is still capable of causing infection. They provide information about the overall amount of viral material in the sample.</p></li>
+</ol>
+<section id="virus-infectivity-assays" class="level3" data-number="4.2.1">
+<h3 data-number="4.2.1" class="anchored" data-anchor-id="virus-infectivity-assays"><span class="header-section-number">4.2.1</span> Virus Infectivity Assays</h3>
+<section id="plaque-assay" class="level4" data-number="4.2.1.1">
+<h4 data-number="4.2.1.1" class="anchored" data-anchor-id="plaque-assay"><span class="header-section-number">4.2.1.1</span> Plaque Assay</h4>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week2/plaque.png" class="img-fluid figure-img" width="503"></p>
+<p></p><figcaption class="figure-caption">Results from a Plaque Assay</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>The plaque assay is a technique that exploits the fact that a single infectious virus particle can cause a visible area of damage, like cell death. Here’s how it works:</p>
+<ol type="1">
+<li><p>Scientists create serial dilutions of a virus suspension and apply these dilutions to a layer of cells. The cells are then incubated for a specific period, which varies depending on the virus.</p></li>
+<li><p>An overlay is added to the cell layer to restrict the spread of the virus, allowing local virus replication to occur.</p></li>
+<li><p>After some time, the cells are stained so that the areas of damage, called plaques, become visible to the naked eye.</p></li>
+<li><p>Each plaque originates from a single infectious virus particle. This helps researchers count the number of infectious particles in the initial virus suspension.</p></li>
+<li><p>Different types of cells are used for different viruses. For example, MDCK cells are used for influenza, and HEp2 cells are used for RSV. This is because different viruses interact better with specific cell types.</p></li>
+</ol>
+<p>In essence, the plaque assay is a method for quantifying the number of infectious virus particles in a sample and allows researchers to study their effects on cells.</p>
+<p>The plaque assay method can be adapted in various ways to suit specific needs:</p>
+<ol type="1">
+<li><p><strong>Different overlay medium</strong></p>
+<p>Instead of using the standard overlay, various substances like agarose, carboxymethyl cellulose (cmc), or avecel can be used. These substances modify how the virus spreads and affects cells.</p></li>
+<li><p><strong>Different visualization methods for plaques</strong></p>
+<p>Plaques, the visible areas of cell damage, can be detected in diverse ways. This could involve visual observation (noting cell death) or using immunostaining techniques to identify specific viral proteins or markers associated with infected cells. These variations allow researchers to tailor the assay to their objectives and the characteristics of the virus being studied.</p></li>
 </ol>
 </section>
-<section id="transmission-electron-microscopy-i.e.-tem" class="level3" data-number="3.2.2">
-<h3 data-number="3.2.2" class="anchored" data-anchor-id="transmission-electron-microscopy-i.e.-tem"><span class="header-section-number">3.2.2</span> Transmission Electron Microscopy (i.e., TEM)</h3>
-<section id="negative-staining" class="level4" data-number="3.2.2.1">
-<h4 data-number="3.2.2.1" class="anchored" data-anchor-id="negative-staining"><span class="header-section-number">3.2.2.1</span> Negative Staining</h4>
-<p><strong>Negative staining</strong> is a way to look at virus particles, their morphology, and detect viruses in clinical material. In this setup, special heavy metals make the virus parts stand out more. Uranyl acetate and phosphotungstic acid are two common choices; these agents don’t color the virus, but they make them easier to see under an electron microscope.</p>
-<p>Scientists also use a special grid to look at the viruses under the electron microscope.</p>
+<section id="endpoint-assay" class="level4" data-number="4.2.1.2">
+<h4 data-number="4.2.1.2" class="anchored" data-anchor-id="endpoint-assay"><span class="header-section-number">4.2.1.2</span> Endpoint Assay</h4>
+<p>The endpoint assay is employed when certain viruses don’t create plaques or foci but instead lead to noticeable cytopathic effects (CPE), such as the measles virus on Vero cells.</p>
+<p>Here’s how the endpoint assay works:</p>
+<ol type="1">
+<li><p><strong>Replicates and TCID50</strong></p>
+<p>Multiple repetitions of the assay are conducted using different virus dilutions. The dilution at which 50% of these replicates show CPE is determined. This provides a value known as the TCID50 (50% Tissue Culture Infectious Dose).</p></li>
+<li><p><strong>Reed and Muench calculation</strong></p>
+<p>To calculate TCID50, the Reed and Muench method is commonly employed. This involves statistical calculations to estimate the viral concentration based on the observed outcomes in the replicates.</p></li>
+</ol>
+<p>The endpoint assay is an alternate method for quantifying viral infectivity when plaque formation isn’t applicable. It helps researchers gauge the virus’s impact on cell cultures.</p>
+</section>
+</section>
+<section id="other-assays" class="level3" data-number="4.2.2">
+<h3 data-number="4.2.2" class="anchored" data-anchor-id="other-assays"><span class="header-section-number">4.2.2</span> Other Assays</h3>
+<section id="haemagglutination-assay" class="level4" data-number="4.2.2.1">
+<h4 data-number="4.2.2.1" class="anchored" data-anchor-id="haemagglutination-assay"><span class="header-section-number">4.2.2.1</span> Haemagglutination Assay</h4>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="../imgs/week2/TEMprocedure.png" class="img-fluid figure-img" width="359"></p>
-<p></p><figcaption class="figure-caption">Outline of How TEM Works</figcaption><p></p>
+<p><img src="../imgs/week2/ha.png" class="img-fluid figure-img" width="416"></p>
+<p></p><figcaption class="figure-caption">Schematic of a Haemagglutination Assay</figcaption><p></p>
 </figure>
 </div>
 </div>
 </div>
-<p>The above figure outlines how TEM works:</p>
-<ol type="1">
-<li><p><strong>Adding Sample to Buffer</strong></p>
-<p>Samples are added to a special liquid called a <strong>buffer</strong> - this helps keep sample safe and ready for the following step.</p></li>
-<li><p><strong>Adding Heavy Metal Stain</strong></p>
-<p>A special “paint” made out of heavy metals is added to the sample - this helps the microscope see the sample better by giving it strong contrasts (i.e., like dark ink on white paper).</p></li>
-<li><p><strong>Blotting</strong></p>
-<p>The sample is put onto a special surface that soaks up the extra liquid.</p></li>
-<li><p><strong>Air Drying</strong></p>
-<p>The sample is left in the air to dry. This helps the heavy metal paint to stick to the sample and make it ready for viewing.</p></li>
-</ol>
+<p>Back in 1941, George Hirst made a significant breakthrough by showing that the influenza virus could clump together red blood cells.</p>
+<p>This discovery introduced the first quick and quantitative technique for measuring viruses that affect eukaryotic cells. For the first time, it became possible to actually count viruses. This method, which measures the level of influenza virus, is still in use today.</p>
 </section>
-<section id="immuno-negative-staining" class="level4" data-number="3.2.2.2">
-<h4 data-number="3.2.2.2" class="anchored" data-anchor-id="immuno-negative-staining"><span class="header-section-number">3.2.2.2</span> Immuno-Negative Staining</h4>
-<p>When negative staining is performed with immunolabelling, this is called <strong>immuno-negative staining</strong>. First, <strong>immunolabelling</strong> - putting special “labels” on the objects of interests - is carried out. Then, negative staining is carried out to make the sample easier to look at.</p>
-</section>
-<section id="thin-sections" class="level4" data-number="3.2.2.3">
-<h4 data-number="3.2.2.3" class="anchored" data-anchor-id="thin-sections"><span class="header-section-number">3.2.2.3</span> Thin Sections</h4>
-<p>To study samples closely, scientists need to prepare them carefully:</p>
-<ol type="1">
-<li>First, they make the cells stay still using a process called <strong>fixation</strong>.</li>
-<li>They treat the cells with chemicals and then remove water from them.</li>
-<li>They put the cells into a special plastic material to keep them in shape. To see virus-infected cells, they need to cut super thin slices, like cutting very thin pieces of cheese. These slices are usually between 80 and 100 nanometers thick.</li>
-<li>They use a special machine called an ultramicrotome to do this cutting. Once the slices are ready, they put them on a small grid and add some coloring to help see the details better when they use the electron microscope.</li>
-</ol>
-<p>Samples can also be immunolabelled before or after embedding (i.e., keeping the cells into a special plastic material) and sectioning.</p>
-</section>
-</section>
-</section>
-<section id="pros-and-cons-of-light-and-electron-microscopy" class="level2" data-number="3.3">
-<h2 data-number="3.3" class="anchored" data-anchor-id="pros-and-cons-of-light-and-electron-microscopy"><span class="header-section-number">3.3</span> Pros and Cons of Light and Electron Microscopy</h2>
-<p>The following table lists some pros and cons as they pertain to electron and light microscopy:</p>
-<div class="cell">
+<section id="direct-particle-count" class="level4" data-number="4.2.2.2">
+<h4 data-number="4.2.2.2" class="anchored" data-anchor-id="direct-particle-count"><span class="header-section-number">4.2.2.2</span> Direct Particle Count</h4>
+<div class="cell" data-layout-align="center">
 <div class="cell-output-display">
-<table class="table table-sm table-striped">
-<thead>
-<tr class="header">
-<th style="text-align: left;">Pros.of.Light.Microscopy</th>
-<th style="text-align: left;">Cons.of.Light.Microscopy</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">Simple to do</td>
-<td style="text-align: left;">Limited Resolution of 200 to 300 nm</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Specimen is in solvent</td>
-<td style="text-align: left;"></td>
-</tr>
-</tbody>
-</table>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/week2/dpc.png" class="img-fluid figure-img" width="501"></p>
+<p></p><figcaption class="figure-caption">Illustration of a Direct Particle Count</figcaption><p></p>
+</figure>
 </div>
 </div>
-<div class="cell">
-<div class="cell-output-display">
-<table class="table table-sm table-striped">
-<colgroup>
-<col style="width: 27%">
-<col style="width: 72%">
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Pros.of.Electron.Microscopy</th>
-<th style="text-align: left;">Cons.of.Electron.Microscopy</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">Good Resolution</td>
-<td style="text-align: left;">Time Consuming</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"></td>
-<td style="text-align: left;">Need Dried Samples</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"></td>
-<td style="text-align: left;">Can lead to imperfections in final viewing because it’s just so difficult</td>
-</tr>
-</tbody>
-</table>
 </div>
-</div>
+<p>The direct particle count method involves estimating the quantity of virus particles using electron microscopy. Here’s how it works:</p>
+<ol type="1">
+<li><p><strong>Using visible markers</strong></p>
+<p>Scientists incorporate a known concentration of easily visible markers, like latex beads, into the virus sample.</p></li>
+<li><p><strong>Electron microscopy</strong></p>
+<p>The sample is then examined under an electron microscope, allowing researchers to observe and count both the virus particles and the added markers.</p></li>
+</ol>
+<p>However, it’s important to note that this method doesn’t differentiate between infectious and noninfectious virus particles. While it provides a measure of the total number of particles, it doesn’t offer insights into their infectivity.</p>
 
 
+</section>
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -625,14 +558,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../chapters/week3.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Strategies for Virus Entry</span></span>
+      <a href="../chapters/week2.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Seeing Viruses</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../chapters/tut2.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Growing and Counting Viruses</span></span> <i class="bi bi-arrow-right-short"></i>
-      </a>
   </div>
 </nav>
 </div> <!-- /content -->
