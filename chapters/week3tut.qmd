@@ -1,0 +1,83 @@
+# Engineering Viruses
+
+```{r echo = F, fig.cap = 'Expression of Virus Proteins', fig.align = 'center'}
+knitr::include_graphics('../imgs/week3/rcvirus.png')
+```
+
+Sometimes, when viruses make their special building blocks, these blocks come together to form structures that look a lot like the original virus itself. Imagine it's like building blocks making a toy that's like the real thing, called *virus-like particles** or **VLPs**.
+
+But here's the catch: while these VLPs look like viruses and can fool us at first glance, they're missing an important ability. They can't make more of themselves, like how real viruses can multiply. It's like having a toy that can't create copies of itself.
+
+## Reverse Genetics
+
+Sometimes, scientists want to understand how certain changes in viruses can affect their behavior. It's like studying what happens when you change some parts of a toy.
+
+To do this, they aim to create a sort of "genetic blueprint" for the virus, a bit like having a recipe that can make the virus. This blueprint is made of DNA and allows them to generate a virus that can actually infect cells and do its thing.
+
+For viruses with positive-strand RNA, it's quite direct. It's like having a simple recipe that's easy to follow.
+
+However, for viruses with negative-strand RNA or other complex types, things get tricky. It's like having a tricky recipe that's not easy to understand. Scientists need to figure out ways to work with these viruses, and sometimes it's quite complicated. In fact, for some viruses, there aren't even good methods yet.
+
+### Genetic Recombination from Cloned DNA 
+
+#### Positive Stranded Viruses
+
+```{r echo = F, fig.cap = 'Overview of Replication Strategy of Positive Stranded Viruses', fig.align = 'center'}
+knitr::include_graphics('../imgs/week3/positive.png')
+```
+
+#### Negative Stranded Viruses
+
+```{r echo = F, fig.cap = 'Overview of Replication Strategy of Negative Stranded Viruses', fig.align = 'center'}
+knitr::include_graphics('../imgs/week3/negative.png')
+```
+
+Some examples of generating negative stranded RNA viruses via reverse genetics include:
+
+1.  **Paramyxovirus**
+
+    To get the virus working, it's like having a team of players. The main players are **L (polymerase)**, **P (cofactor)**, and **N (vRNA binder)**, and they need to work together to do their job.
+
+    To make this happen, scientists put together a special setup. It's like gathering the right players for a game. They put bits of genetic instructions for L, P, and N into the cell, just like sending in players to play their roles (i.e., **plasmids** containing L, P, and N). They also add in the virus's complete instructions.
+
+    Imagine it's like getting the team's players and the playbook ready to start the game.
+    
+1.  **Influenza Virus**
+
+    ```{r echo = F, fig.cap = 'Appearance of a Flu Virus', fig.align = 'center'}
+    knitr::include_graphics('../imgs/week3/fluflu.png')    
+    ```
+    
+    Imagine the Influenza virus as a set of building blocks, but instead of having all the instructions on one block, they spread them out on different blocks. It's like having different pages of a recipe in separate books.
+
+    In the case of the Influenza A virus, it's like having 8 different books, each with its own set of instructions for making different parts of the virus.
+
+    To build the virus, certain blocks have special jobs. Think of these blocks as the leaders of the construction team. There are four blocks named **NP**, **PB1**, **PB2**, and **PA**. These four work together like a powerful team to make the virus's "building crew," kind of like a mastermind group.
+
+### 12 Plasmid System
+
+```{r echo = F, fig.cap = '12 Plasmid System', fig.align = 'center'}
+knitr::include_graphics('../imgs/week3/plasmids.png')
+```
+
+When scientists want to make a virus do something, it's like giving it a job to perform. They use special "worker molecules" called **RNA pol1** or **pol2**, kind of like having different teams for different tasks.
+
+Now, here comes an interesting point. Imagine the virus's instructions are like puzzle pieces. For some viruses with many pieces (segments), scientists need more instruction cards (plasmids) to complete the puzzle. Think of it like needing more recipe cards to make a big meal.
+
+Currently, for some viruses, scientists need around 12 or 8 of these special cards (i.e., **plasmids**) to make the virus work properly. It's like needing a lot of recipe cards to make a complex dish.
+
+### Applications
+
+Usually, flu vaccines are made using eggs. It's like using eggs as tiny factories to create the vaccine.
+
+But there's a challenge. The H5N1 virus is a bit tricky. It's really strong and can cause problems in the labs where it's grown, which is like a high-security zone. Because it's so strong, it even harms the eggs used to grow it, like breaking the eggs you want to use for cooking.
+
+Because of this, the amount of virus that can be grown is limited. It's like not having enough ingredients to make a big batch of food.
+
+```{r echo = F, fig.cap = '12 Plasmid System to Generate H5N1 Virus Particles', fig.align = 'center'}
+knitr::include_graphics('../imgs/week3/h5n1.png')
+```
+
+When there's a tricky virus like H5N1 that's causing problems, scientists use reverse genetics. It's like solving a puzzle backwards.
+
+They create a new virus that's safe and not very risky. This new virus can also grow well in eggs, like the ones they use for making vaccines.

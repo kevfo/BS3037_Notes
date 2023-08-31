@@ -17,6 +17,7 @@ book:
       chapters:
         - chapters/week2.qmd
         - chapters/tut2.qmd
+        - chapters/week3tut.qmd
   sharing: [twitter, facebook]
   page-navigation: true
   repo-url: https://github.com/kevfo/BS3037_Notes/

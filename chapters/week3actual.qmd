@@ -357,4 +357,3 @@ Scientists are still figuring out the exact ways our body's proteins influence v
 
 Some viruses use the cell's outer layer to help them function. Think of it as a toolbox attached to a belt. The viruses might carry their tools in these special pockets of the cell's outer layer, which are called **lipid rafts**. These are like secret compartments that make the viruses' work easier.
 
-
