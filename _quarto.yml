@@ -13,6 +13,7 @@ book:
         - chapters/week1.qmd
         - chapters/week3.qmd
         - chapters/week3actual.qmd
+        - chapters/week4.qmd
     - part: "**PART 2: TUTORIAL NOTES**"
       chapters:
         - chapters/week2.qmd

@@ -1,0 +1,170 @@
+# Virus Assembly and Exit
+
+```{r echo = F, fig.cap = 'Final Stage of Virus Replication', fig.align = 'center'}
+knitr::include_graphics('../imgs/week4/release.png')
+```
+
+The **assembly** is the last part of a virus' replication cycle.  When viruses assemble, they use all sorts of things called **host cell factors**, which may include stuff like chaperones, proteases, and glycosylations.
+
+Where the virus chooses to assemble itself can have a huge effect on its overall shape.
+
+## Packaging the Virus' Genome
+
+One of more of the virus' genetic sequence can help control how the virus' capsid forms.  However, it's worth nothing that these sequences really depend on the genome and also how the virus assembles in the first place.
+
+### Nucleocapsid Proteins
+
+All viruses have something called a **nucleocapsid protein** - what this does is basically keeps the virus' genome in a sort of spiral conformation that is maintained by a small number of the nucleocapsid's subunits and the genome's packaging signals (i.e., its proteins).  This spiral can elongate with more nucleocapid subunits.
+
+```{r echo = F, fig.cap = 'Nucleocpasid Protein Formation in a HIV Virus', fig.align = 'center'}
+knitr::include_graphics('../imgs/week4/nuprotein.png')
+```
+
+If we look at the HIV virus, a protein called **psi** has a sort of stem loop structure that binds to two zinc binding domains in the virus' nucleocapsid protein.  These domains are super flexible when they're not bound to anything; only when they are ordered do they become more ordered.
+
+```{r echo = F, fig.cap = 'Genome Insertion in a Large Virus', fig.align = 'center'}
+knitr::include_graphics('../imgs/week4/ep15.png')
+```
+
+In the case of large viruses like the one above (i.e., epsilon15), the genetic material can be inserted into a preformed protein shell (i.e., like filling up a cream puff).
+
+```{r echo = F, fig.cap = 'Assembly in a Reovirus', fig.align = 'center'}
+knitr::include_graphics('../imgs/week4/reovirus.png')
+```
+
+Alternatively, if we look at double stranded DNA in a reovirus, we see that the 5' end of the mRNA has to pass through a "portal" of a core particle.  This "portal" also has a polymerase that's associated with it so that double stranded RNA can be fashioned.
+
+## Assembling the Virus
+
+This can happen in one of two ways depending on whether the virus in question is enveloped or not.
+
+### Non-Enveloped Viruses
+
+These viruses assemble in the cytoplasm or in the nucleus.  The **capsid** - the protein shell of the virus - helps protect the virus from being degraded by the environment.  Though, in some cases, the virus particles are released in a way that causes the cells to burst in a process called **lysis** - the poliovirus does this.
+
+#### Example: Adenovirus in the Nucleus
+
+```{r echo = F, fig.cap = 'Assembly of an Adenovirus', fig.align = 'center'}
+knitr::include_graphics('../imgs/week4/adenovirus.png')
+```
+
+After the virus uses the host cell's ribosomes to perform protein synthesis, the proteins need to go back into the nucleus.
+
+Among one of many proteins that need to go back to the nucleus is called **CA** - this depends on another protein called the **polypeptide VI** protein (i.e., **pVI**).  pVI contains a **n**uclear **l**ocalization **s**ignal (i.e., **NLS**) - this is like a passport that allows the protein to gain entry into the cell.
+
+Inside the nucleus, the virus' capsid forms and the virus' DNA is put into them.  These capsids then get treated by proteases to go from young to mature. 
+
+The viruses cause the cell to undergo lysis.
+
+### Enveloped Viruses
+
+These viruses must get a lipid bilayer (i.e., a layer of fatty acids) when they assemble, and this process can happen anywhere depending on where the virus first assembled.
+
+This lipid bilayer also protects the virus from being degraded by the environment.
+
+#### Example: HSV in the Nucleus
+
+```{r echo = F, fig.cap = 'Assembly of a HSV', fig.align = 'center'}
+knitr::include_graphics('../imgs/week4/adenovirus.png')
+```
+
+There are four main steps:
+
+1.  The virus' capsid forms in the nucleus in a very complicated way.
+1.  This capsid then goes through the nuclear membrane - this requires two things: a **phosphoprotein** and a **transmembrane protein**
+1.  This capsid is first engulfed by the inner nuclear membrane before it leaves through the outer nuclear membrane.
+1.  This capsid then gets uptaken by the Golgi membrane.
+
+### How Does the Flu Virus Assemble?
+
+```{r echo = F, fig.cap = 'Assembly of the Influenza Virus', fig.align = 'center'}
+knitr::include_graphics('../imgs/week4/flu.png')
+```
+
+The influenza virus is different from other RNA viruses as its **r**ibo**n**ucleo**p**roteins (i.e., **RNPs**) need to go from the nucleus to the cytoplasm.  This moving is aided by the **M** and **NEP** proteins.  
+
+However, only the NEP proteins have a **n**uclear **e**xport **s**ignal (i.e., **NES**) that allows it to leave the nucleus.  This NES overcomes the NLS that the NP and P proteins have.  
+
+This NES then goes on to bind to another protein called **exportin 1** (i.e., **CRM1**) - this helps the RNP go into the cytoplasm.
+
+### Virus Assembly at the Membranes
+
+```{r echo = F, fig.cap = 'Virus Assembly at the Cellular Membranes', fig.align = 'center'}
+knitr::include_graphics('../imgs/week4/membranes.png')
+```
+
+When viruses assemble on the cell's membranes, something known as **endosomal sorting complexes** (i.e., **ESCRT**) are needed.  These ESCRT complexes help shape the cell's membrane in a way that allows it to bud away from the cytoplasm.
+
+```{r echo = F, fig.cap = 'Different Membrane Budding Sites', fig.align = 'center'}
+knitr::include_graphics('../imgs/week4/sites.png')
+```
+
+The above figure shows various locations that a virus can bud from:
+
+1.  Through the plasma membrane - viruses like the RSV or the influenza virus do this.  Secretory vesicles that contain the virus can also be made.
+1.  Through the internal membranes, like the ER (e.g., the rotavirus), the Golgi apparatus (e.g., the Hataan virus), or the nuclear membranes (e.g., the HSV-1 virus).
+
+If the virus leaves from the internal membranes, then mature viruses can only be released.  In many cases, the glycoproteins that the virus has can influence where budding happens.
+
+### Modifications of Viral Proteins
+
+There are a few ways that viral proteins can be modified - especially during budding:
+
+1.  **Glycosylation**
+
+    ```{r echo = F, fig.cap = 'Different Glycosylation Outcomes', fig.align = 'center'}
+    knitr::include_graphics('../imgs/week4/glycosylation.png')
+    ```
+    
+    When glycosylation doesn't happen, this can interfere with the activity of some viral fusion protein - like the RSV's F protein.  Though, glycosylation can also affect how proteases cleave the influenza virus' HA protein.
+
+1.  **Attaching Lipids to Viral Proteins**
+
+    ```{r echo = F, fig.cap = 'Attachment of Palmitoyl Groups to Cysteine Residues', fig.align = 'center'}
+    knitr::include_graphics('../imgs/week4/palmitoyl.png')
+    ```
+    
+    When something called **palmitoyl** is attached to the amino acid cysteine, scientist think that this may help stabilize viral fusion proteins.  This typically happens on the carbon terminus of the cysteine residue - this happens on the cytoplasm side of the protein.
+    
+    **Myristylation** - on the other hand - refers to adding something called **myristic acid** to the nitrogen end of glycine.
+    
+1.  **Proteolytic Cleavage**
+
+    The reality is that many viral fusion proteins need to be activated by proteases (i.e., proteins that promote degradtion) so that they can perform their functions.
+    
+    ```{r echo = F, fig.cap = 'Ebola Virus\' G Protein Being Cleaved by Furin', fig.align = 'center'}
+    knitr::include_graphics('../imgs/week4/furin.png')
+    ```
+    
+    A protease called **furin** and proteases similar to furin can be found in the Golgi apparatus.  Furin is found in many cell types and has multiple cleavage sites.
+    
+    There are also cell-specific proteases like the **Clara protease**.  These proteases are typically specific to tissues and only work on single to double amino acids.
+
+## Cell Structures
+
+When many viruses are ready to be released out of the cell, they tend to use the cell's structures - its actin cytoskeleton and its lipid-raft membranes to be specific.
+
+### F-Actin Cytoskeleton
+
+Viruses are able to cause a sort of change within this cytoskeleton; when a virus infects a cell, this can lead to a change in signalling pathways that regulate the structure of the F-actin cytoskeleton. 
+
+### Lipid-Raft Membranes
+
+```{r echo = F, fig.cap = 'Formation of Lipid Rafts', fig.align = 'center'}
+knitr::include_graphics('../imgs/week4/lipidraft.png')
+```
+
+The plasma membrane doesn't contain a fixed set of proteins.  There's something called the **raft hypothesis** that states that certain areas (i.e., microdomains) of the cell membrane have more types of a specific kind of lipid.
+
+#### Why do Lipid Rafts Form?
+
+Different kinds of lipids in the membranes of an animal's cell don't all provide the same stability.
+
+That said, virus assembly can occur in these lipid raft microdomains.  Many kinds of viruses - including the HIV and influenza virus - tend to use lipid rafts as a way of releasing themselves.
+
+
+
+
+
+
+
