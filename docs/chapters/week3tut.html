@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>BS3037: Virology - 7&nbsp; Engineering Viruses</title>
+<title>BS3037: Virology - 8&nbsp; Engineering Viruses</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,6 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../chapters/week5tut.html" rel="next">
 <link href="../chapters/tut2.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -72,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Engineering Viruses</span></h1>
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Engineering Viruses</span></h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -152,6 +153,11 @@ ul.task-list li input[type="checkbox"] {
   <a href="../chapters/week4.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Virus Assembly and Exit</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/week5.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Antiviral Drugs</span></a>
+  </div>
+</li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
@@ -164,17 +170,22 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../chapters/week2.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Seeing Viruses</span></a>
+  <a href="../chapters/week2.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Seeing Viruses</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../chapters/tut2.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Growing and Counting Viruses</span></a>
+  <a href="../chapters/tut2.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Growing and Counting Viruses</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../chapters/week3tut.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Engineering Viruses</span></a>
+  <a href="../chapters/week3tut.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Engineering Viruses</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/week5tut.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Routes of Virus Transmission and Consequences</span></a>
   </div>
 </li>
       </ul>
@@ -188,11 +199,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#reverse-genetics" id="toc-reverse-genetics" class="nav-link active" data-scroll-target="#reverse-genetics"><span class="toc-section-number">7.1</span>  Reverse Genetics</a>
+  <li><a href="#reverse-genetics" id="toc-reverse-genetics" class="nav-link active" data-scroll-target="#reverse-genetics"><span class="toc-section-number">8.1</span>  Reverse Genetics</a>
   <ul class="collapse">
-  <li><a href="#genetic-recombination-from-cloned-dna" id="toc-genetic-recombination-from-cloned-dna" class="nav-link" data-scroll-target="#genetic-recombination-from-cloned-dna"><span class="toc-section-number">7.1.1</span>  Genetic Recombination from Cloned DNA</a></li>
-  <li><a href="#plasmid-system" id="toc-plasmid-system" class="nav-link" data-scroll-target="#plasmid-system"><span class="toc-section-number">7.1.2</span>  12 Plasmid System</a></li>
-  <li><a href="#applications" id="toc-applications" class="nav-link" data-scroll-target="#applications"><span class="toc-section-number">7.1.3</span>  Applications</a></li>
+  <li><a href="#genetic-recombination-from-cloned-dna" id="toc-genetic-recombination-from-cloned-dna" class="nav-link" data-scroll-target="#genetic-recombination-from-cloned-dna"><span class="toc-section-number">8.1.1</span>  Genetic Recombination from Cloned DNA</a></li>
+  <li><a href="#plasmid-system" id="toc-plasmid-system" class="nav-link" data-scroll-target="#plasmid-system"><span class="toc-section-number">8.1.2</span>  12 Plasmid System</a></li>
+  <li><a href="#applications" id="toc-applications" class="nav-link" data-scroll-target="#applications"><span class="toc-section-number">8.1.3</span>  Applications</a></li>
   </ul></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/kevfo/BS3037_Notes/edit/main/chapters/week3tut.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/kevfo/BS3037_Notes/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
@@ -202,7 +213,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Engineering Viruses</span></h1>
+<h1 class="title d-none d-lg-block"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Engineering Viruses</span></h1>
 </div>
 
 
@@ -228,16 +239,16 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <p>Sometimes, when viruses make their special building blocks, these blocks come together to form structures that look a lot like the original virus itself. Imagine it’s like building blocks making a toy that’s like the real thing, called *virus-like particles<strong> or </strong>VLPs**.</p>
 <p>But here’s the catch: while these VLPs look like viruses and can fool us at first glance, they’re missing an important ability. They can’t make more of themselves, like how real viruses can multiply. It’s like having a toy that can’t create copies of itself.</p>
-<section id="reverse-genetics" class="level2" data-number="7.1">
-<h2 data-number="7.1" class="anchored" data-anchor-id="reverse-genetics"><span class="header-section-number">7.1</span> Reverse Genetics</h2>
+<section id="reverse-genetics" class="level2" data-number="8.1">
+<h2 data-number="8.1" class="anchored" data-anchor-id="reverse-genetics"><span class="header-section-number">8.1</span> Reverse Genetics</h2>
 <p>Sometimes, scientists want to understand how certain changes in viruses can affect their behavior. It’s like studying what happens when you change some parts of a toy.</p>
 <p>To do this, they aim to create a sort of “genetic blueprint” for the virus, a bit like having a recipe that can make the virus. This blueprint is made of DNA and allows them to generate a virus that can actually infect cells and do its thing.</p>
 <p>For viruses with positive-strand RNA, it’s quite direct. It’s like having a simple recipe that’s easy to follow.</p>
 <p>However, for viruses with negative-strand RNA or other complex types, things get tricky. It’s like having a tricky recipe that’s not easy to understand. Scientists need to figure out ways to work with these viruses, and sometimes it’s quite complicated. In fact, for some viruses, there aren’t even good methods yet.</p>
-<section id="genetic-recombination-from-cloned-dna" class="level3" data-number="7.1.1">
-<h3 data-number="7.1.1" class="anchored" data-anchor-id="genetic-recombination-from-cloned-dna"><span class="header-section-number">7.1.1</span> Genetic Recombination from Cloned DNA</h3>
-<section id="positive-stranded-viruses" class="level4" data-number="7.1.1.1">
-<h4 data-number="7.1.1.1" class="anchored" data-anchor-id="positive-stranded-viruses"><span class="header-section-number">7.1.1.1</span> Positive Stranded Viruses</h4>
+<section id="genetic-recombination-from-cloned-dna" class="level3" data-number="8.1.1">
+<h3 data-number="8.1.1" class="anchored" data-anchor-id="genetic-recombination-from-cloned-dna"><span class="header-section-number">8.1.1</span> Genetic Recombination from Cloned DNA</h3>
+<section id="positive-stranded-viruses" class="level4" data-number="8.1.1.1">
+<h4 data-number="8.1.1.1" class="anchored" data-anchor-id="positive-stranded-viruses"><span class="header-section-number">8.1.1.1</span> Positive Stranded Viruses</h4>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
@@ -249,8 +260,8 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </section>
-<section id="negative-stranded-viruses" class="level4" data-number="7.1.1.2">
-<h4 data-number="7.1.1.2" class="anchored" data-anchor-id="negative-stranded-viruses"><span class="header-section-number">7.1.1.2</span> Negative Stranded Viruses</h4>
+<section id="negative-stranded-viruses" class="level4" data-number="8.1.1.2">
+<h4 data-number="8.1.1.2" class="anchored" data-anchor-id="negative-stranded-viruses"><span class="header-section-number">8.1.1.2</span> Negative Stranded Viruses</h4>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
@@ -284,8 +295,8 @@ ul.task-list li input[type="checkbox"] {
 </ol>
 </section>
 </section>
-<section id="plasmid-system" class="level3" data-number="7.1.2">
-<h3 data-number="7.1.2" class="anchored" data-anchor-id="plasmid-system"><span class="header-section-number">7.1.2</span> 12 Plasmid System</h3>
+<section id="plasmid-system" class="level3" data-number="8.1.2">
+<h3 data-number="8.1.2" class="anchored" data-anchor-id="plasmid-system"><span class="header-section-number">8.1.2</span> 12 Plasmid System</h3>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
@@ -300,8 +311,8 @@ ul.task-list li input[type="checkbox"] {
 <p>Now, here comes an interesting point. Imagine the virus’s instructions are like puzzle pieces. For some viruses with many pieces (segments), scientists need more instruction cards (plasmids) to complete the puzzle. Think of it like needing more recipe cards to make a big meal.</p>
 <p>Currently, for some viruses, scientists need around 12 or 8 of these special cards (i.e., <strong>plasmids</strong>) to make the virus work properly. It’s like needing a lot of recipe cards to make a complex dish.</p>
 </section>
-<section id="applications" class="level3" data-number="7.1.3">
-<h3 data-number="7.1.3" class="anchored" data-anchor-id="applications"><span class="header-section-number">7.1.3</span> Applications</h3>
+<section id="applications" class="level3" data-number="8.1.3">
+<h3 data-number="8.1.3" class="anchored" data-anchor-id="applications"><span class="header-section-number">8.1.3</span> Applications</h3>
 <p>Usually, flu vaccines are made using eggs. It’s like using eggs as tiny factories to create the vaccine.</p>
 <p>But there’s a challenge. The H5N1 virus is a bit tricky. It’s really strong and can cause problems in the labs where it’s grown, which is like a high-security zone. Because it’s so strong, it even harms the eggs used to grow it, like breaking the eggs you want to use for cooking.</p>
 <p>Because of this, the amount of virus that can be grown is limited. It’s like not having enough ingredients to make a big batch of food.</p>
@@ -537,10 +548,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
       <a href="../chapters/tut2.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Growing and Counting Viruses</span></span>
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Growing and Counting Viruses</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
+      <a href="../chapters/week5tut.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Routes of Virus Transmission and Consequences</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
   </div>
 </nav>
 </div> <!-- /content -->

@@ -14,11 +14,13 @@ book:
         - chapters/week3.qmd
         - chapters/week3actual.qmd
         - chapters/week4.qmd
+        - chapters/week5.qmd
     - part: "**PART 2: TUTORIAL NOTES**"
       chapters:
         - chapters/week2.qmd
         - chapters/tut2.qmd
         - chapters/week3tut.qmd
+        - chapters/week5tut.qmd
   sharing: [twitter, facebook]
   page-navigation: true
   repo-url: https://github.com/kevfo/BS3037_Notes/
